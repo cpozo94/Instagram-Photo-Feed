@@ -12,11 +12,16 @@ img {
     display: flex;
     justify-content: center;
 }
+.main {
+    margin-top: 50px;
+}
 
 #pills-profile{
     margin:auto;
     width:50%;
 }
+
+
 
 
 
