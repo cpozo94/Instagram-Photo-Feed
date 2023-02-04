@@ -1,0 +1,22 @@
+
+img {
+    width:100%;
+    
+}
+
+#pills-tab {
+    display: flex;
+    justify-content: center;
+}
+
+#pills-profile{
+    margin:auto;
+    border:solid;
+    width:50%;
+}
+
+.top {
+    display:flex;
+    justify-content: space-between;
+}
+

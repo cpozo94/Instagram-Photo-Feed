@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/49bb115d44.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+  <!-- Nav Bar -->
+
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <form class="d-flex" role="search">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"> Create a new post</button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Crete a new post</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label"><h6>Caption:</h6></label>
+              <textarea class="form-control" placeholder="Add the caption of your post here" id="message-text"></textarea>
+            </div>
+            <span class="border"><i class="fa-solid fa-camera"></i></span>
+            <span class="border"><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Dropdown buttom -->
+
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa-solid fa-gear"></i>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-white">
+      <li><a class="dropdown-item active" href="#">Profile</a></li>
+      <li><a class="dropdown-item" href="#">Accessibility</a></li>
+      <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#"><font color="red">Log out</a></li></font></li>
+    </ul>
+  </div>
+          </form>
+        </div>
+        
+      </nav>
+
+  <!-- Web division -->
+
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-sharp fa-solid fa-table-cells"></i></button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+    </li>
+    
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+       
+        <div class="container text-center">
+            <div class="row gx-1">
+              <div class="col-4" >
+                <div class="p-1"><img src="https://picsum.photos/id/640/200/300"></div>
+              </div>
+              <div class="col-4">
+                <div class="p-1" ><img src="https://picsum.photos/id/168/200/300"></div>
+              </div>
+              <div class="col-4">
+                <div class="p-1"><img src="https://picsum.photos/id/413/200/300"></div>
+              </div>
+              <div class="col-4">
+                <div class="p-1"><img src="https://picsum.photos/id/856/200/300"></div>
+              </div>
+              <div class="col-4">
+                <div class="p-1"><img src="https://picsum.photos/id/145/200/300"></div>
+              </div>
+              <div class="col-4">
+                <div class="p-1"><img src="https://picsum.photos/id/222/200/300"></div>
+              </div>
+              <div class="col-4">
+                <div class="p-1"><img src="https://picsum.photos/id/231/200/300"></div>
+              </div>
+              <div class="col-4">
+                <div class="p-1"><img src="https://picsum.photos/id/230/200/300"></div>
+              </div>
+              <div class="col-4">
+                <div class="p-1"><img src="https://picsum.photos/id/234/200/300"></div>
+              </div>
+              
+            </div>
+          </div>
+            
+
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+        <div class="container d-flex flex-column">
+            <div class="p-1" >
+                <div><p>Amazing picture that I took three years ago</p></div> <div><p>1/3</p></div>
+            </div>
+            
+            <div class="top">
+              <img src=https://picsum.photos/seed/picsum/200/300 class="img-fluid" alt="Image 1">
+            </div>
+            <div><p>Amazing picture that I took three years ago</p></div> <div><p>1/3</p></div>
+            <div class="p-1">
+                <img src=https://picsum.photos/seed/picsum/200/300 class="img-fluid" alt="Image 1">
+            </div>
+            <div><p>Amazing picture that I took three years ago</p></div> <div><p>1/3</p></div>
+            <div class="p-1">
+              <img src=https://picsum.photos/seed/picsum/200/300 class="img-fluid" alt="Image 1">
+            </div>
+            <div><p>Amazing picture that I took three years ago</p></div> <div><p>1/3</p></div>
+          </div>
+  </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
