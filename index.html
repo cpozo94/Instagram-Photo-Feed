@@ -10,17 +10,17 @@
 	<script src="https://kit.fontawesome.com/49bb115d44.js" crossorigin="anonymous"></script>
     
 </head>
-<body>
+
 
   <!-- Nav Bar -->
 
     <nav class="navbar bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a class="navbar-brand col-9"><i class="fa-brands fa-instagram"></i> Instagram</a>
           <form class="d-flex" role="search">
 
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"> Create a new post</button>
+            <button type="button" class="btn btn-primary ml" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" style="background-color: rgb(82, 134, 4);"> Create a new post</button>
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -35,8 +35,9 @@
             
             <div class="mb-3">
               <label for="message-text" class="col-form-label"><h6>Caption:</h6></label>
-              <textarea class="form-control" placeholder="Add the caption of your post here" id="message-text"></textarea>
+              <textarea class="form-control" placeholder="Add the caption of your post here" id="message-text" style="resize:none"></textarea>
             </div>
+            
             <span class="border"><i class="fa-solid fa-camera"></i></span>
             <span class="border"><i class="fa-sharp fa-solid fa-location-dot"></i></span>
           </form>
@@ -119,25 +120,65 @@
 
     </div>
     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-
-        <div class="container d-flex flex-column">
-            <div class="p-1" >
-                <div><p>Amazing picture that I took three years ago</p></div> <div><p>1/3</p></div>
-            </div>
-            
-            <div class="top">
-              <img src=https://picsum.photos/seed/picsum/200/300 class="img-fluid" alt="Image 1">
-            </div>
-            <div><p>Amazing picture that I took three years ago</p></div> <div><p>1/3</p></div>
-            <div class="p-1">
-                <img src=https://picsum.photos/seed/picsum/200/300 class="img-fluid" alt="Image 1">
-            </div>
-            <div><p>Amazing picture that I took three years ago</p></div> <div><p>1/3</p></div>
-            <div class="p-1">
-              <img src=https://picsum.photos/seed/picsum/200/300 class="img-fluid" alt="Image 1">
-            </div>
-            <div><p>Amazing picture that I took three years ago</p></div> <div><p>1/3</p></div>
+      <div class="card-group">
+        <div class="card background-color:white;">
+          <div class="card-header" style="display:flex; justify-content: space-between;background-color: white;">
+            <h5>
+              Qué bonito mi perro!
+            </h5>
+            <p>
+              1/3
+            </p>
           </div>
+          <img src="https://picsum.photos/id/237/200/300" class="card-img-top" alt="perrro">
+      <div class="card-footer" style="background-color: white;">
+            <p>
+              124 Likes
+            </p>
+            <p>
+              This is a really beautiful dog!
+            </p>
+        </div>
+      <div class="card-group">
+          <div class="card">
+            <div class="card-header" style="display:flex; justify-content: space-between; background-color: white;">
+              <h5>
+                Vaya paisaje
+              </h5>
+              <p>
+                2/3
+              </p>
+            </div>
+            <img src="https://picsum.photos/id/236/200/300" class="card-img-top" alt="perrro">
+            <div class="card-footer" style="background-color: white;">
+                <p>
+                  50 likes
+                </p>
+                <p>
+                  Maravillos instantánea
+                </p>
+            </div>
+        <div class="card-group">
+          <div class="card">
+            <div class="card-header" style="display:flex; justify-content: space-between; background-color: white;">
+             <h5>
+              Qué bonito mi perro!
+            </h5>
+            <p>
+              3/3
+            </p>
+            </div>
+              <img src="https://picsum.photos/id/234/200/300" class="card-img-top" alt="perrro">
+            <div class="card-footer" style="background-color: white;">
+              <p>
+                50 likes
+              </p>
+              <p>
+                Maravillos instantánea
+              </p>
+        </div>
+        
+            
   </div>
 
 
